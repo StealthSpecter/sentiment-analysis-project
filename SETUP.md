@@ -120,24 +120,24 @@ import sklearn
 import torch
 import transformers
 from bertopic import BERTopic
-print("✅ All core libraries imported successfully!")
+print(" All core libraries imported successfully!")
 
 # Check NLTK data
 try:
     from nltk.corpus import stopwords
     stopwords.words('english')[:5]
-    print("✅ NLTK data downloaded successfully!")
+    print(" NLTK data downloaded successfully!")
 except:
-    print("❌ NLTK data missing - run: python -c \"import nltk; nltk.download('all')\"")
+    print(" NLTK data missing - run: python -c \"import nltk; nltk.download('all')\"")
 
 # Check dataset
 import os
 if os.path.exists('data/Reviews.csv'):
-    print("✅ Dataset found!")
+    print(" Dataset found!")
 else:
-    print("❌ Dataset missing - download from Kaggle")
+    print(" Dataset missing - download from Kaggle")
 
-print("\n🎉 Setup complete! Ready to run notebooks.")
+print("\n Setup complete! Ready to run notebooks.")
 EOF
 ```
 
@@ -255,11 +255,11 @@ sentiment-analysis-project/
 
 ## Next Steps
 
-1. ✅ Complete setup
-2. 📊 Run `01_bow_lda_vader.ipynb` as a test
-3. 🧪 Experiment with hyperparameters
-4. 📈 Generate your own results
-5. 🔬 Extend the analysis
+1.  Complete setup
+2.  Run `01_bow_lda_vader.ipynb` as a test
+3.  Experiment with hyperparameters
+4.  Generate your own results
+5.  Extend the analysis
 
 ## Performance Tips
 
@@ -287,4 +287,4 @@ If you encounter issues:
 
 ---
 
-Happy analyzing! 🚀
+Happy analyzing! 
