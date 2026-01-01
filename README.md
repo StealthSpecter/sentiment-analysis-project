@@ -2,7 +2,7 @@
 
 A comprehensive comparative analysis of embedding techniques and transformer-based models for sentiment analysis and topic modeling on Amazon Fine Food Reviews.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project conducts a systematic comparison of **7 different approaches** for sentiment analysis and topic modeling on a dataset of **200,000 Amazon Fine Food Reviews**. The study evaluates both traditional machine learning methods and state-of-the-art transformer models.
 
@@ -14,7 +14,7 @@ This project conducts a systematic comparison of **7 different approaches** for 
 - **Approaches Evaluated**: 7 different methodologies
 - **Comprehensive Analysis**: Includes convergence analysis, coherence evaluation, and performance metrics
 
-## 🎯 Research Objectives
+##  Research Objectives
 
 1. Evaluate different embedding techniques (BoW, TF-IDF, Word2Vec, GloVe) vs transformers (BERT, RoBERTa)
 2. Compare topic modeling approaches (LDA, NMF, K-Means, BERTopic)
@@ -23,14 +23,14 @@ This project conducts a systematic comparison of **7 different approaches** for 
 5. Assess computational efficiency of each approach
 6. Identify factors impacting customer satisfaction
 
-## 🔬 Methodologies Implemented
+##  Methodologies Implemented
 
 ### Traditional Machine Learning Approaches
 
 | Approach | Topic Modeling | Sentiment Analysis | Optimal k | Coherence Score |
 |----------|---------------|-------------------|-----------|----------------|
 | **BoW + LDA + VADER** | LDA | VADER | 25 | 0.4943 |
-| **TF-IDF + LDA + VADER** | LDA | VADER | 33 | **0.5379** ⭐ |
+| **TF-IDF + LDA + VADER** | LDA | VADER | 33 | **0.5379**  |
 | **TF-IDF + NMF + VADER** | NMF | VADER | 18 | 0.3411 |
 | **Word2Vec + K-Means + VADER** | K-Means | VADER | 49 | 0.4378 |
 | **GloVe + BERTopic + VADER** | BERTopic | VADER | 29 | 0.4503 |
@@ -40,9 +40,9 @@ This project conducts a systematic comparison of **7 different approaches** for 
 | Model | Epochs | Accuracy | F1-Score | Training Time |
 |-------|--------|----------|----------|---------------|
 | **BERT** | 1 | 89.61% | 0.8875 | ~15 min |
-| **RoBERTa** | 2 | **91.47%** ⭐ | 0.9115 | ~30 min |
+| **RoBERTa** | 2 | **91.47%**  | 0.9115 | ~30 min |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sentiment-analysis-project/
@@ -77,7 +77,7 @@ sentiment-analysis-project/
 └── README.md                    # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -109,7 +109,7 @@ python -c "import nltk; nltk.download('stopwords'); nltk.download('vader_lexicon
 2. Place the `Reviews.csv` file in the `data/` directory
 3. The dataset contains 568,454 reviews; we use a 200,000 sample for this analysis
 
-## 📚 Notebook Links
+##  Notebook Links
 
 All notebooks are available on Google Colab:
 
@@ -121,7 +121,7 @@ All notebooks are available on Google Colab:
 6. **BERT Sentiment Classification**: [Colab Link](https://colab.research.google.com/drive/1dFpdDvTiHRVnwFddR_YIFwlDCh6XA7oV)
 7. **RoBERTa Sentiment Classification**: [Colab Link](https://colab.research.google.com/drive/1SQqTJiaOdTDr3uVIbvuSwzufG9bj5pyl)
 
-## 🎓 Key Findings
+##  Key Findings
 
 ### Topic Modeling Results
 
@@ -149,7 +149,7 @@ All notebooks are available on Google Colab:
 - Product Quality: 18% negative
 - Packaging Issues: 16% negative
 
-## ⚙️ Technical Details
+##  Technical Details
 
 ### Data Preprocessing Pipeline
 
@@ -167,7 +167,7 @@ All notebooks are available on Google Colab:
 - Cross-validation for transformer models
 - Computational efficiency tracking
 
-## 📊 Performance Comparison
+##  Performance Comparison
 
 ### Computational Efficiency (200K documents)
 
@@ -199,7 +199,7 @@ All notebooks are available on Google Colab:
 - Primary: TF-IDF + LDA + VADER (CPU-only, good performance)
 - Alternative: BoW + LDA + VADER (minimal resources)
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **Programming**: Python 3.8+
 - **NLP Libraries**: NLTK, Gensim, SpaCy
@@ -211,35 +211,13 @@ All notebooks are available on Google Colab:
 - **Visualization**: Matplotlib, Seaborn, Plotly
 - **Environment**: Google Colab (GPU: Tesla T4)
 
-## 📝 Citation
 
-If you use this work in your research, please cite:
-
-```bibtex
-@project{sentiment_analysis_2024,
-  title={Comparative Analysis of Embedding Techniques for Sentiment Analysis on Customer Reviews},
-  author={Deb, Samiksha and Sarraf, Vanshika},
-  institution={National Institute of Technology Meghalaya},
-  year={2024},
-  supervisor={Singh, Thoudam Doren}
-}
-```
-
-## 🤝 Contributors
-
-- **Samiksha Deb** (B22CS029)
-- **Vanshika Sarraf** (B22CS037)
-- **Supervisor**: Dr. Thoudam Doren Singh, Assistant Professor, CSE, NIT Meghalaya
-
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
 
-We express our sincere gratitude to Dr. Thoudam Doren Singh for his invaluable guidance, support, and mentorship throughout this project. We acknowledge the National Institute of Technology Meghalaya for providing the academic environment and resources that enabled this research.
-
-## 📧 Contact
+##  Contact
 
 For questions or collaboration opportunities, please open an issue in this repository.
 
